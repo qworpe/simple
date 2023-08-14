@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #4C5866;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav {
+  padding-top: 28px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 60px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.nav ul a {
+  color: #4C5866;
+}
+.nav ul :hover {
+  color: #7875fe;
+}
+
+.logo {
+  margin-right: 302px;
+}
+
+.nav__line {
+  margin-right: 60px;
+}
+
+.nav__footer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav__main {
+  display: block;
+}
+
+.border {
+  width: 1440px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #DDD;
+  margin-top: 28px;
+}
+
+.infoblock {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.infoblock button {
+  color: #7875FE;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  width: 255px;
+  height: 70px;
+  padding: 20px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #7875FE;
+}
+
+.info__header {
+  color: #4C5866;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 60px */
+}
+
+.info__text {
+  color: #85859B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.header__footer {
+  display: flex;
+}
+.header__footer .paper {
+  margin-top: 60px;
+}/*# sourceMappingURL=main.css.map */
