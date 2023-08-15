@@ -1,0 +1,32 @@
+.scetchbook__block {
+    padding-top: 90px;
+}
+
+.scetchbook {
+    display: flex;
+    gap: 80px;
+}
+
+.scetchbook__text__button {
+    position: relative;
+    top: 30px;
+}
+
+.scetch__head {
+    color: #666;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 100%; 
+    padding-bottom: 12px;
+}
+
+.scetch__text {
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; 
+    padding-bottom: 30px;
+
+}
