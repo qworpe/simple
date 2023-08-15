@@ -196,4 +196,75 @@ body {
 .header__footer .paper {
   margin-top: 60px;
   margin-left: 125px;
+}
+
+.steps {
+  background: #EBEBEB;
+  padding-top: 90px;
+}
+
+.line {
+  width: 350px;
+  height: 1px;
+  background-color: #C0C0C0;
+}
+
+.steps__header {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.v__textes__more {
+  display: flex;
+  align-items: center;
+}
+
+.versions {
+  margin-top: 19px;
+}
+
+.head__v__text {
+  color: #666;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.accent__v__text {
+  color: #85859B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.steps__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__head {
+  color: #666;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.about__more {
+  color: #85859B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 170%;
 }/*# sourceMappingURL=main.css.map */
