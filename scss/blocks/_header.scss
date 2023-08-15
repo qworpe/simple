@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #4C5866;
+    margin: 0;
 }
 
 .container {
@@ -64,20 +65,29 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    button {
-        color: #7875FE;
-        font-size: 20px;
-        font-weight: 400;
-        display: flex;
-        width: 255px;
-        height: 70px;
-        padding: 20px 50px;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-        border: 1px solid #7875FE;
-    }
 }
+
+
+.button__kat{
+    color: #7875FE;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    width: 255px;
+    height: 70px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #7875FE;  
+    transition: 0.3s;
+}
+
+.button__kat:hover {
+    background-color: #7875FE;
+    color: white;
+}
+
 
 .info__header {
     color: #4C5866;
@@ -101,5 +111,6 @@ body {
     display: flex;
     .paper {
         margin-top: 60px;
+        margin-left: 125px;
     }
 }

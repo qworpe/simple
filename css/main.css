@@ -89,6 +89,7 @@ legend {
 body {
   font-family: "Roboto", sans-serif;
   color: #4C5866;
+  margin: 0;
 }
 
 .container {
@@ -150,7 +151,8 @@ body {
   flex-direction: column;
   gap: 30px;
 }
-.infoblock button {
+
+.button__kat {
   color: #7875FE;
   font-size: 20px;
   font-weight: 400;
@@ -162,6 +164,12 @@ body {
   align-items: center;
   gap: 6px;
   border: 1px solid #7875FE;
+  transition: 0.3s;
+}
+
+.button__kat:hover {
+  background-color: #7875FE;
+  color: white;
 }
 
 .info__header {
@@ -187,4 +195,5 @@ body {
 }
 .header__footer .paper {
   margin-top: 60px;
+  margin-left: 125px;
 }/*# sourceMappingURL=main.css.map */
