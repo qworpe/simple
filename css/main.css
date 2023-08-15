@@ -271,7 +271,6 @@ body {
 
 .products {
   padding-top: 90px;
-  padding-bottom: 90px;
 }
 
 .product__type {
@@ -310,7 +309,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .link a {
   color: #7875FE;
@@ -318,8 +317,32 @@ body {
   font-weight: 400;
 }
 
+.link3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 9px;
+}
+.link3 a {
+  color: #7875FE;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.link4 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.link4 a {
+  color: #7875FE;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .companies__block {
   background-color: #EBEBEB;
+  margin-top: 90px;
 }
 
 .companies {
