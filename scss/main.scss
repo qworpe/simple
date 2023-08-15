@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+//base
 @import './base/reset';
 @import './base/vars';
+
+
+//header and main
 @import './blocks/header';
 @import './blocks/steps';
 @import './blocks/products';
+@import './blocks/companies';
+
+
+//footer
 @import './blocks/footer';
